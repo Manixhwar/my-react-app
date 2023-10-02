@@ -1,0 +1,45 @@
+/* App.css */
+
+/* Style the navigation bar container with gradient background */
+.c-navigation--bar {
+    background: linear-gradient(90deg, #fc0 0, #fc0 48%, #ffe57f 70%, #fff0b2); /* Gradient background */
+    color: #FFFFFF; /* White text color, change it as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Style the DHL logo */
+  .c-navigation-logo img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Style the navigation menu */
+  .c-navigation--menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .c-navigation--menu li {
+    margin-right: 20px; /* Adjust the spacing between menu items as needed */
+  }
+  
+  .c-navigation--menu a {
+    text-decoration: none;
+    color: #FFFFFF; /* White text color, change it as needed */
+    font-weight: bold;
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+  .c-navigation--menu a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Additional styles as needed */
+  /* Add this CSS to your stylesheet */
+.common-image {   
+    display: block;
+    max-height: 6.3rem;
+    width: 100%;
+}  

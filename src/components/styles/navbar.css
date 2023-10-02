@@ -1,0 +1,56 @@
+.c-country-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Ensure that buttons wrap to the next line if needed */
+  margin-top: 10px; /* Add margin as needed */
+}
+/* App.css */
+.c-country-selection-layer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.c-country-selection-layer--flag {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.c-country-selection-layer--copy-container {
+  display: flex;
+  align-items: center;
+}
+
+.c-country-selection-layer--copy strong {
+  font-weight: bold;
+}
+
+.base-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.base-button:hover {
+  background-color: #0056b3;
+}
+
+.base-button--white {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.base-button--white:hover {
+  background-color: #007bff;
+  color: #fff;
+}
